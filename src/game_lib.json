@@ -2,367 +2,367 @@
   "Consoles": [
     {
       "ConsoleName": "Nintendo Switch",
-      "ConsoleIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/nintendo_switch_icon.png",
+      "ConsoleIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/nintendo_switch_icon.png",
       "Games": [
         {
           "GameName": "Home",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/nintendo_switch_icon.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/nintendo_switch_icon.png"
         },
         {
           "GameName": "Animal Crossing: New Horizons",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/acnh.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/acnh.png"
         },
         {
           "GameName": "Fire Emblem: Three Houses",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/fe3h.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/fe3h.png"
         },
         {
           "GameName": "Mario Kart 8 Deluxe",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/mk8d.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/mk8d.png"
         },
         {
           "GameName": "Metroid Dread",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/metroid_dread.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/metroid_dread.png"
         },
         {
           "GameName": "Metroid Prime 4: Beyond",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/mp4b.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/mp4b.png"
         },
         {
           "GameName": "Pokémon Legends: Z-A",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/pokemon_za.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/pokemon_za.png"
         },
         {
           "GameName": "Pokémon Scarlet / Violet",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/pokemon_sv.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/pokemon_sv.png"
         },
         {
           "GameName": "Pokémon Sword / Shield",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/pokemon_swsh.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/pokemon_swsh.png"
         },
         {
           "GameName": "Splatoon 3",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/splatoon3.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/splatoon3.png"
         },
         {
           "GameName": "Super Mario Bros. Wonder",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/smbw.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/smbw.png"
         },
         {
           "GameName": "Super Mario Odyssey",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/smo.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/smo.png"
         },
         {
           "GameName": "Super Smash Bros. Ultimate",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/ssbu.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/ssbu.png"
         },
         {
           "GameName": "The Legend of Zelda: Breath of the Wild",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/zelda_botw.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/zelda_botw.png"
         },
         {
           "GameName": "The Legend of Zelda: Echoes of Wisdom",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/zelda_eow.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/zelda_eow.png"
         },
         {
           "GameName": "The Legend of Zelda: Tears of the Kingdom",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/zelda_totk.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/zelda_totk.png"
         },
         {
           "GameName": "Xenoblade Chronicles 3",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/xc3.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/xc3.png"
         },
         {
           "GameName": "Super Mario Galaxy",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/smg.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/smg.png"
         },
         {
           "GameName": "Super Mario Galaxy 2",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/smg2.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/smg2.png"
         },
         {
           "GameName": "Super Mario 3D All-Stars",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/sm3d_allstars.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/sm3d_allstars.png"
         },
         {
           "GameName": "Super Mario 3D World + Bowser's Fury",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/sm3d_world.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/sm3d_world.png"
         },
         {
           "GameName": "New Super Mario Bros U Deluxe",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/nsmbu_deluxe.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/nsmbu_deluxe.png"
         },
         {
           "GameName": "Mario & Luigi Brothership",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/m&l_brothership.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/m&l_brothership.png"
         },
         {
           "GameName": "Nintendo Switch Sports",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/ns_sports.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/ns_sports.png"
         },
         {
           "GameName": "Super Mario Maker 2",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/smm2.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/smm2.png"
         },
         {
           "GameName": "Yoshi's Crafted World",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/yoshis_crafted_world.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/yoshis_crafted_world.png"
         }
       ]
     },
     {
       "ConsoleName": "Nintendo Wii U",
-      "ConsoleIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/nintendo_wii_u_icon.png",
+      "ConsoleIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/nintendo_wii_u_icon.png",
       "Games": [
         {
           "GameName": "Home",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/nintendo_wii_u_icon.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/nintendo_wii_u_icon.png"
         },
         {
           "GameName": "Bayonetta 2",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/bayonetta2_wiiu.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/bayonetta2_wiiu.png"
         },
         {
           "GameName": "Captain Toad: Treasure Tracker",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/captain_toad_wiiu.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/captain_toad_wiiu.png"
         },
         {
           "GameName": "Donkey Kong Country: Tropical Freeze",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/dkc_tf_wiiu.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/dkc_tf_wiiu.png"
         },
         {
           "GameName": "Hyrule Warriors",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/hyrule_warriors_wiiu.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/hyrule_warriors_wiiu.png"
         },
         {
           "GameName": "Mario Kart 8",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/mk8_wiiu.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/mk8_wiiu.png"
         },
         {
           "GameName": "Nintendo Land",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/nintendo_land.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/nintendo_land.png"
         },
         {
           "GameName": "Paper Mario: Color Splash",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/pm_color_splash.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/pm_color_splash.png"
         },
         {
           "GameName": "Pikmin 3",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/pikmin3_wiiu.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/pikmin3_wiiu.png"
         },
         {
           "GameName": "Pokkén Tournament",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/pokken_wiiu.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/pokken_wiiu.png"
         },
         {
           "GameName": "Splatoon",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/splatoon_wiiu.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/splatoon_wiiu.png"
         },
         {
           "GameName": "Star Fox Zero",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/star_fox_zero.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/star_fox_zero.png"
         },
         {
           "GameName": "Super Mario 3D World",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/sm3dw_wiiu.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/sm3dw_wiiu.png"
         },
         {
           "GameName": "Super Mario Maker",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/smm_wiiu.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/smm_wiiu.png"
         },
         {
           "GameName": "Super Smash Bros. Wii U",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/smash_wiiu.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/smash_wiiu.png"
         },
         {
           "GameName": "The Legend of Zelda: Breath of the Wild",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/zelda_botw_wiiu.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/zelda_botw_wiiu.png"
         },
         {
           "GameName": "The Legend of Zelda: The Wind Waker HD",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/zelda_ww_hd.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/zelda_ww_hd.png"
         },
         {
           "GameName": "The Legend of Zelda: Twilight Princess HD",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/zelda_tp_hd.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/zelda_tp_hd.png"
         },
         {
           "GameName": "Xenoblade Chronicles X",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/xcx.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/xcx.png"
         },
         {
           "GameName": "Yoshi's Woolly World",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/yoshis_woolly_world.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/yoshis_woolly_world.png"
         }
       ]
     },
     {
       "ConsoleName": "Nintendo Wii",
-      "ConsoleIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/nintendo_wii_icon.png",
+      "ConsoleIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/nintendo_wii_icon.png",
       "Games": [
         {
           "GameName": "Home",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/nintendo_wii_icon.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/nintendo_wii_icon.png"
         },
         {
           "GameName": "Animal Crossing: City Folk",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/accf_wii.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/accf_wii.png"
         },
         {
           "GameName": "Donkey Kong Country Returns",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/dkcr_wii.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/dkcr_wii.png"
         },
         {
           "GameName": "Mario Kart Wii",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/mkwii.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/mkwii.png"
         },
         {
           "GameName": "Metroid Prime 3: Corruption",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/mp3c_wii.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/mp3c_wii.png"
         },
         {
           "GameName": "New Super Mario Bros. Wii",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/nsmbw.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/nsmbw.png"
         },
         {
           "GameName": "Super Mario Galaxy",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/smg_wii.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/smg.png"
         },
         {
           "GameName": "Super Mario Galaxy 2",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/smg2_wii.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/smg2.png"
         },
         {
           "GameName": "Super Paper Mario",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/spm_wii.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/spm_wii.png"
         },
         {
           "GameName": "Super Smash Bros. Brawl",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/ssbb.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/ssbb.png"
         },
         {
           "GameName": "The Legend of Zelda: Skyward Sword",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/zelda_ss.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/zelda_ss.png"
         },
         {
           "GameName": "The Legend of Zelda: Twilight Princess",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/zelda_tp_wii.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/zelda_tp_wii.png"
         },
         {
           "GameName": "Wii Sports",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/wii_sports.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/wii_sports.png"
         },
         {
           "GameName": "Wii Sports Resort",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/wii_sports_resort.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/wii_sports_resort.png"
         },
         {
           "GameName": "Xenoblade Chronicles",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/xc_wii.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/xc_wii.png"
         }
       ]
     },
     {
       "ConsoleName": "Nintendo 3DS",
-      "ConsoleIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/nintendo_3ds_icon.png",
+      "ConsoleIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/nintendo_3ds_icon.png",
       "Games": [
         {
           "GameName": "Home",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/nintendo_3ds_icon.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/nintendo_3ds_icon.png"
         },
         {
           "GameName": "Animal Crossing: New Leaf",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/acnl.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/acnl.png"
         },
         {
           "GameName": "Fire Emblem: Awakening",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/fe_awakening.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/fe_awakening.png"
         },
         {
           "GameName": "Kid Icarus: Uprising",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/kid_icarus_uprising.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/kid_icarus_uprising.png"
         },
         {
           "GameName": "Luigi's Mansion: Dark Moon",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/lm_dark_moon.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/lm_dark_moon.png"
         },
         {
           "GameName": "Mario Kart 7",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/mk7.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/mk7.png"
         },
         {
           "GameName": "Pokémon Sun / Moon",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/pokemon_sm.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/pokemon_sm.png"
         },
         {
           "GameName": "Pokémon X / Y",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/pokemon_xy.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/pokemon_xy.png"
         },
         {
           "GameName": "Super Mario 3D Land",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/sm3dl.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/sm3dl.png"
         },
         {
           "GameName": "Super Smash Bros. Nintendo 3DS",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/smash_3ds.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/smash_3ds.png"
         },
         {
           "GameName": "The Legend of Zelda: A Link Between Worlds",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/zelda_albw.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/zelda_albw.png"
         },
         {
           "GameName": "The Legend of Zelda: Ocarina of Time 3D",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/zelda_oot_3d.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/zelda_oot_3d.png"
         }
       ]
     },
     {
       "ConsoleName": "Nintendo DS",
-      "ConsoleIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/nintendo_ds_icon.png",
+      "ConsoleIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/nintendo_ds_icon.png",
       "Games": [
         {
           "GameName": "Home",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/nintendo_ds_icon.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/nintendo_ds_icon.png"
         },
         {
           "GameName": "Animal Crossing: Wild World",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/acww.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/acww.png"
         },
         {
           "GameName": "Mario & Luigi: Bowser's Inside Story",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/ml_bis.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/ml_bis.png"
         },
         {
           "GameName": "Mario Kart DS",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/mkds.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/mkds.png"
         },
         {
           "GameName": "New Super Mario Bros.",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/nsmb_ds.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/nsmb_ds.png"
         },
         {
           "GameName": "Pokémon Black / White",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/pokemon_bw.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/pokemon_bw.png"
         },
         {
           "GameName": "Pokémon Diamond / Pearl",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/pokemon_dp.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/pokemon_dp.png"
         },
         {
           "GameName": "Pokémon HeartGold / SoulSilver",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/pokemon_hgss.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/pokemon_hgss.png"
         },
         {
           "GameName": "Super Mario 64 DS",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/sm64ds.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/sm64ds.png"
         },
         {
           "GameName": "The Legend of Zelda: Phantom Hourglass",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/zelda_ph.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/zelda_ph.png"
         },
         {
           "GameName": "The Legend of Zelda: Spirit Tracks",
-          "ImageIconKey": "https://github.com/EternalsLegacy/NintendoDiscordStatus/blob/main/images/zelda_st.png"
+          "ImageIconKey": "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/zelda_st.png"
         }
       ]
     }
