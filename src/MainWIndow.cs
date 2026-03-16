@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Collections.Generic;
+using System.Net.Http;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Layout;
@@ -12,6 +13,7 @@ using Avalonia.Markup.Declarative;
 using Avalonia.Media;
 using Avalonia.Interactivity;
 using Avalonia.Input;
+using Avalonia.Media.Imaging;
 using NintendoDiscordStatus.Services;
 using NintendoDiscordStatus.Models;
 
@@ -25,6 +27,7 @@ public class MainWindow : Window
 {
     #region Variables
 
+    private const string GithubImagesUrl = "https://raw.githubusercontent.com/EternalsLegacy/NintendoDiscordStatus/main/images/";
     private readonly DiscordService AppDiscordService;
     private GamesLibModel Library = new GamesLibModel();
     private List<PresetModel> Presets = new List<PresetModel>();
@@ -35,6 +38,7 @@ public class MainWindow : Window
     private TextBox DetailsBox = null!;
     private TextBox StateBox = null!;
 
+    private Image PreviewMainImage = null!;
     private TextBlock PreviewGameName = null!;
     private TextBlock PreviewDetails = null!;
     private TextBlock PreviewState = null!;
@@ -118,6 +122,8 @@ public class MainWindow : Window
 
         DetailsBox = CreateStyledTextBox("Exploring Hyrule", false);
         StateBox = CreateStyledTextBox("Singleplayer", true);
+
+        PreviewMainImage = new Image() { Stretch = Stretch.UniformToFill };
 
         PreviewGameName = new TextBlock().Text("The Legend of Zelda").Foreground(TextWhiteBrush).FontWeight(FontWeight.Bold);
         PreviewDetails = new TextBlock().Text("Exploring Hyrule").Foreground(TextGrayBrush).FontSize(13);
@@ -268,11 +274,53 @@ public class MainWindow : Window
 
     private void UpdateLivePreview()
     {
+        string CurrentConsole = ConsoleCombo.Text ?? string.Empty;
         string CurrentGame = GameCombo.Text ?? string.Empty;
 
         PreviewGameName.Text = string.IsNullOrWhiteSpace(CurrentGame) ? "Unknown Game" : CurrentGame;
         PreviewDetails.Text = DetailsBox.Text;
         PreviewState.Text = StateBox.Text;
+
+        var ConsoleData = Library.Consoles.FirstOrDefault(C => C.ConsoleName == CurrentConsole);
+        var GameData = ConsoleData?.Games.FirstOrDefault(G => G.GameName == CurrentGame);
+
+        string ImageKey = GameData?.ImageIconKey ?? string.Empty;
+        UpdatePreviewImageAsync(ImageKey);
+    }
+
+    private async void UpdatePreviewImageAsync(string ImageKey)
+    {
+        if (string.IsNullOrWhiteSpace(ImageKey))
+        {
+            PreviewMainImage.Source = null;
+            return;
+        }
+
+        string Url = ImageKey.StartsWith("http")
+            ? ImageKey
+            : $"{GithubImagesUrl}{ImageKey}.png";
+
+        try
+        {
+            using var Client = new HttpClient();
+            var Bytes = await Client.GetByteArrayAsync(Url);
+            using var Ms = new MemoryStream(Bytes);
+            var Bitmap = new Bitmap(Ms);
+
+            Avalonia.Threading.Dispatcher.UIThread.Post(() =>
+            {
+                PreviewMainImage.Source = Bitmap;
+            });
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[Vorschau] Fehler beim Laden des Bildes von {Url}: {ex.Message}");
+
+            Avalonia.Threading.Dispatcher.UIThread.Post(() =>
+            {
+                PreviewMainImage.Source = null;
+            });
+        }
     }
 
     private void UpdatePreviewConsoleIcon(string ConsoleName)
@@ -295,11 +343,18 @@ public class MainWindow : Window
         var ConsoleData = Library.Consoles.FirstOrDefault(C => C.ConsoleName == SelectedConsole);
         var GameData = ConsoleData?.Games.FirstOrDefault(G => G.GameName == SelectedGame);
 
-        string LargeImageKey = GameData?.ImageIconKey ?? "nintendo_switch_icon";
+        string LargeImageKey = GameData?.ImageIconKey ?? string.Empty;
         string SmallImageKey = ConsoleData?.ConsoleIconKey ?? string.Empty;
 
+        string LargeImageUrl = string.IsNullOrWhiteSpace(LargeImageKey) ? string.Empty : 
+            (LargeImageKey.StartsWith("http") ? LargeImageKey : $"{GithubImagesUrl}{LargeImageKey}.png");
+            
+        string SmallImageUrl = string.IsNullOrWhiteSpace(SmallImageKey) ? string.Empty : 
+            (SmallImageKey.StartsWith("http") ? SmallImageKey : $"{GithubImagesUrl}{SmallImageKey}.png");
+
         AppDiscordService.ResetTimer();
-        AppDiscordService.SetGameStatus(SelectedConsole, SelectedGame, DetailsBox.Text ?? string.Empty, LargeImageKey, SmallImageKey);
+        
+        AppDiscordService.SetGameStatus(SelectedConsole, SelectedGame, DetailsBox.Text ?? string.Empty, LargeImageUrl, SmallImageUrl);
 
         StatusIndicatorText.Text = "RPC is Active";
         StatusIndicatorText.Foreground = DiscordGreenBrush;
@@ -506,7 +561,9 @@ public class MainWindow : Window
                                                 new Border()
                                                     .Background(InputBackgroundBrush)
                                                     .CornerRadius(8)
-                                                    .Width(70).Height(70),
+                                                    .Width(70).Height(70)
+                                                    .ClipToBounds(true)
+                                                    .Child(PreviewMainImage),
 
                                                 new Border()
                                                     .Background(AccentRedBrush)
