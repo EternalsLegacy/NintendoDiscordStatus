@@ -2,11 +2,11 @@
   "Consoles": [
     {
       "ConsoleName": "Nintendo Switch",
-      "ConsoleIconKey": "nintendo_switch_icon",
+      "ConsoleIconKey": "nintendo_switch_icon_v2",
       "Games": [
         {
           "GameName": "Home",
-          "ImageIconKey": "nintendo_switch_icon"
+          "ImageIconKey": "nintendo_switch_icon_v2"
         },
         {
           "GameName": "Animal Crossing: New Horizons",
