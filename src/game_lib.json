@@ -107,6 +107,10 @@
         {
           "GameName": "Yoshi's Crafted World",
           "ImageIconKey": "yoshis_crafted_world"
+        },
+        {
+          "GameName": "Mario Kart World",
+          "ImageIconKey": "mkw"
         }
       ]
     },
