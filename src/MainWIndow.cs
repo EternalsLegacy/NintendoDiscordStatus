@@ -296,9 +296,10 @@ public class MainWindow : Window
             return;
         }
 
+        string CacheBuster = $"?t={DateTimeOffset.UtcNow.ToUnixTimeSeconds()}";
         string Url = ImageKey.StartsWith("http")
             ? ImageKey
-            : $"{GithubImagesUrl}{ImageKey}.png";
+            : $"{GithubImagesUrl}{ImageKey}.png{CacheBuster}";
 
         try
         {
@@ -314,12 +315,8 @@ public class MainWindow : Window
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"[Vorschau] Fehler beim Laden des Bildes von {Url}: {ex.Message}");
-
-            Avalonia.Threading.Dispatcher.UIThread.Post(() =>
-            {
-                PreviewMainImage.Source = null;
-            });
+            Console.WriteLine($"[Vorschau] Fehler beim Laden des Bildes: {ex.Message}");
+            Avalonia.Threading.Dispatcher.UIThread.Post(() => PreviewMainImage.Source = null);
         }
     }
 
@@ -346,14 +343,13 @@ public class MainWindow : Window
         string LargeImageKey = GameData?.ImageIconKey ?? string.Empty;
         string SmallImageKey = ConsoleData?.ConsoleIconKey ?? string.Empty;
 
-        string LargeImageUrl = string.IsNullOrWhiteSpace(LargeImageKey) ? string.Empty : 
+        string LargeImageUrl = string.IsNullOrWhiteSpace(LargeImageKey) ? string.Empty :
             (LargeImageKey.StartsWith("http") ? LargeImageKey : $"{GithubImagesUrl}{LargeImageKey}.png");
-            
-        string SmallImageUrl = string.IsNullOrWhiteSpace(SmallImageKey) ? string.Empty : 
+
+        string SmallImageUrl = string.IsNullOrWhiteSpace(SmallImageKey) ? string.Empty :
             (SmallImageKey.StartsWith("http") ? SmallImageKey : $"{GithubImagesUrl}{SmallImageKey}.png");
 
         AppDiscordService.ResetTimer();
-        
         AppDiscordService.SetGameStatus(SelectedConsole, SelectedGame, DetailsBox.Text ?? string.Empty, LargeImageUrl, SmallImageUrl);
 
         StatusIndicatorText.Text = "RPC is Active";
