@@ -296,17 +296,20 @@ public class MainWindow : Window
             return;
         }
 
+        string FinalKey = ImageKey;
+        if (!FinalKey.Contains('.')) FinalKey += ".png";
+
         string CacheBuster = $"?t={DateTimeOffset.UtcNow.ToUnixTimeSeconds()}";
-        string Url = ImageKey.StartsWith("http")
-            ? ImageKey
-            : $"{GithubImagesUrl}{ImageKey}.png{CacheBuster}";
+        string Url = FinalKey.StartsWith("http")
+            ? FinalKey
+            : $"{GithubImagesUrl}{FinalKey}{CacheBuster}";
 
         try
         {
             using var Client = new HttpClient();
             var Bytes = await Client.GetByteArrayAsync(Url);
             using var Ms = new MemoryStream(Bytes);
-            var Bitmap = new Bitmap(Ms);
+            var Bitmap = new Avalonia.Media.Imaging.Bitmap(Ms);
 
             Avalonia.Threading.Dispatcher.UIThread.Post(() =>
             {
@@ -340,14 +343,17 @@ public class MainWindow : Window
         var ConsoleData = Library.Consoles.FirstOrDefault(C => C.ConsoleName == SelectedConsole);
         var GameData = ConsoleData?.Games.FirstOrDefault(G => G.GameName == SelectedGame);
 
-        string LargeImageKey = GameData?.ImageIconKey ?? string.Empty;
-        string SmallImageKey = ConsoleData?.ConsoleIconKey ?? string.Empty;
+        string LargeKey = GameData?.ImageIconKey ?? string.Empty;
+        if (!string.IsNullOrWhiteSpace(LargeKey) && !LargeKey.Contains('.')) LargeKey += ".png";
 
-        string LargeImageUrl = string.IsNullOrWhiteSpace(LargeImageKey) ? string.Empty :
-            (LargeImageKey.StartsWith("http") ? LargeImageKey : $"{GithubImagesUrl}{LargeImageKey}.png");
+        string SmallKey = ConsoleData?.ConsoleIconKey ?? string.Empty;
+        if (!string.IsNullOrWhiteSpace(SmallKey) && !SmallKey.Contains('.')) SmallKey += ".png";
 
-        string SmallImageUrl = string.IsNullOrWhiteSpace(SmallImageKey) ? string.Empty :
-            (SmallImageKey.StartsWith("http") ? SmallImageKey : $"{GithubImagesUrl}{SmallImageKey}.png");
+        string LargeImageUrl = string.IsNullOrWhiteSpace(LargeKey) ? string.Empty :
+            (LargeKey.StartsWith("http") ? LargeKey : $"{GithubImagesUrl}{LargeKey}");
+
+        string SmallImageUrl = string.IsNullOrWhiteSpace(SmallKey) ? string.Empty :
+            (SmallKey.StartsWith("http") ? SmallKey : $"{GithubImagesUrl}{SmallKey}");
 
         AppDiscordService.ResetTimer();
         AppDiscordService.SetGameStatus(SelectedConsole, SelectedGame, DetailsBox.Text ?? string.Empty, LargeImageUrl, SmallImageUrl);
