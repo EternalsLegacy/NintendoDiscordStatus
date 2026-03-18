@@ -14,7 +14,7 @@
         },
         {
           "GameName": "Fire Emblem: Three Houses",
-          "ImageIconKey": "fe3h"
+          "ImageIconKey": "fe3h_v2"
         },
         {
           "GameName": "Mario Kart 8 Deluxe",
@@ -30,7 +30,7 @@
         },
         {
           "GameName": "Pokémon Legends: Z-A",
-          "ImageIconKey": "pokemon_za"
+          "ImageIconKey": "pokemon_za_v2"
         },
         {
           "GameName": "Pokémon Scarlet / Violet",
@@ -62,7 +62,7 @@
         },
         {
           "GameName": "The Legend of Zelda: Echoes of Wisdom",
-          "ImageIconKey": "zelda_eow"
+          "ImageIconKey": "zelda_eow_v2"
         },
         {
           "GameName": "The Legend of Zelda: Tears of the Kingdom",
@@ -70,7 +70,7 @@
         },
         {
           "GameName": "Xenoblade Chronicles 3",
-          "ImageIconKey": "xc3"
+          "ImageIconKey": "xc3_v2"
         },
         {
           "GameName": "Super Mario Galaxy",
@@ -90,7 +90,7 @@
         },
         {
           "GameName": "New Super Mario Bros U Deluxe",
-          "ImageIconKey": "nsmbu_deluxe"
+          "ImageIconKey": "nsmbu_deluxe_v2"
         },
         {
           "GameName": "Mario & Luigi Brothership",
@@ -98,7 +98,7 @@
         },
         {
           "GameName": "Nintendo Switch Sports",
-          "ImageIconKey": "ns_sports"
+          "ImageIconKey": "ns_sports_v2"
         },
         {
           "GameName": "Super Mario Maker 2",
@@ -106,7 +106,7 @@
         },
         {
           "GameName": "Yoshi's Crafted World",
-          "ImageIconKey": "yoshis_crafted_world"
+          "ImageIconKey": "yoshis_crafted_world_v2"
         },
         {
           "GameName": "Mario Kart World",
