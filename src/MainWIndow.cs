@@ -73,6 +73,12 @@ public class MainWindow : Window
             .Background(WindowBackgroundBrush)
             .WindowStartupLocation(WindowStartupLocation.CenterScreen);
 
+        string IconPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "app_icon.ico");
+        if (File.Exists(IconPath))
+        {
+            this.Icon = new WindowIcon(IconPath);
+        }
+
         AppDiscordService = new DiscordService();
         AppDiscordService.InitializeDiscordClient("1482829273164284106");
 
